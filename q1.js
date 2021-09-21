@@ -41,3 +41,13 @@ console.log(scores,"score")
 console.log(skills,"skill")  
 }
 DestructionOfArray(students)
+
+const arrayToObject =(nameset,scoresset,skillset) =>{
+    let obj = {
+        names: nameset,
+        score: scoresset,
+        skill: skillset
+    }
+    console.log(obj)
+}
+arrayToObject(name1,scores,skills)
